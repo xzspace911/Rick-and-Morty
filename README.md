@@ -23,9 +23,9 @@ Rick and Morty Characters App is a mobile application that displays characters f
 ## 📂 Project Structure
 ```
 lib/
-├── main.dart          # Entry point of the app
+├── main.dart         # Entry point of the app
 ├── data
-│   ├── web_services      # API handling and services
+│   ├── web_services  # API handling and services
 │   ├── models/       # Data models for characters
 │   ├── repository/
 │   ├── bloc/         # Cubit and Bloc state management
