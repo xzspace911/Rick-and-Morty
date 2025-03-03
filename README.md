@@ -1,4 +1,4 @@
-# Rick and Morty
+# Rick and Morty Characters App
 
 ## 📱 Overview
 
@@ -21,9 +21,7 @@ Rick and Morty Characters App is a mobile application that displays characters f
 - Animations (Hero, Fade, etc.) for smooth UI interactions
 
 ## 📂 Project Structure
-
-
-
+```
 lib/
 ├── main.dart          # Entry point of the app
 ├── data
@@ -35,11 +33,49 @@ lib/
 │   ├── screens/      # UI screens
 │   ├── widgets/      # Reusable components
 ├── assets/           # Images and assets
+```
+## 📡 API Integration
+
+- Uses https://rickandmortyapi.com/api/character to fetch character data
+- Handles network requests efficiently with error handling
+- Uses pagination for better performance
+
+## 🎬 Animations Used
+
+- Hero animation for smooth transition between character list and details
+- Fade & Scale animations for UI elements
+
+## 📥 Installation & Setup
+
+Clone the repository:
+```
+git clone https://github.com/xzspace911/rick_and_morty.git
+```
+
+Navigate to the project directory:
+```
+cd rick_morty_app
+```
+Install dependencies:
+```
+flutter pub get
+```
+Run the application:
+```
+flutter run
+```
+
+## 📌 Future Improvements
+
+- Add search functionality
+- Implement favorite characters feature
+- Enhance UI with more animations
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+Enjoy exploring the multiverse with Rick and Morty! 🛸
 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
